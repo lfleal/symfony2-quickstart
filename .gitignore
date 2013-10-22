@@ -3,9 +3,11 @@
 /app/cache/*
 /app/config/parameters.yml
 /app/logs/*
+!app/cache/.gitkeep
+!app/logs/.gitkeep
 /build/
 /vendor/
 /bin/
-!/bin/after_build.sh
-!/bin/after_deploy.sh
+!bin/after_build.sh
+!bin/after_deploy.sh
 /composer.phar
