@@ -1,3 +1,4 @@
-# AcmeDemoBundle routes (to be removed)
-_acme_demo:
-    resource: "@AcmeDemoBundle/Resources/config/routing.yml"
+lou_test:
+    resource: "@LouTestBundle/Resources/config/routing.yml"
+    prefix:   /
+
